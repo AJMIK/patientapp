@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/pname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -25,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/dctr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -34,9 +36,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/sym"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:onClick="patientdetails"
         android:text="SUBMIT"
         android:textSize="30px"
         android:textColor="#BB0016"
